@@ -9,6 +9,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Props from './pages/Props'
 import Lists from './pages/Lists'
+import Forms from './pages/Forms'
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <Route path='/contact' element={<Contact/>} />
       <Route path='/props' element={<Props/>} />
       <Route path='/lists' element={<Lists/>} />
+      <Route path='/forms' element={<Forms/>} />
 
     </Routes>
     <Footer/>

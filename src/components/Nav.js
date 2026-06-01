@@ -22,6 +22,9 @@ export default function Nav() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/lists">Lists</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/forms">Forms</Link>
+                        </li>
                         
                     </ul>
                 </div>
