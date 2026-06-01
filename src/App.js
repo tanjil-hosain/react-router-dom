@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import Nav from './components/Nav'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Props from './pages/Props'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>} />
       <Route path='/contact' element={<Contact/>} />
+      <Route path='/props' element={<Props/>} />
 
     </Routes>
     <Footer/>
